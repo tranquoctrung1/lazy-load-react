@@ -21,6 +21,7 @@ export default function NavBar(props) {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
+
             <NavItem>
               <NavLink href="/about">About</NavLink>
             </NavItem>
